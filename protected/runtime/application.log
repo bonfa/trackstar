@@ -1,0 +1,470 @@
+2013/12/16 16:42:16 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:16 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:16 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:16 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:17 [error] [exception.CException] exception 'CException' with message 'CException' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:227
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('198')
+#1 [internal function]: ProjectController->actionView('198')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/198
+---
+2013/12/16 16:42:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php:226
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php(60): ProjectController->loadModel('12')
+#1 [internal function]: ProjectController->actionView('12')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CAction.php(108): ReflectionMethod->invokeArgs(Object(ProjectController), Array)
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/actions/CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProjectController), Object(ReflectionMethod), Array)
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(40): CFilterChain->run()
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#11 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('view')
+#13 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/view/id...')
+#14 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#15 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/trackstar/index.php/project/view/id/12
+---
+2013/12/17 09:24:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('issue/admin/pid...')
+#9 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php/issue/admin/pid/1
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/issue/create/pid/1
+---
+2013/12/17 10:05:35 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php/project/admin
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/project/view/id/1
+---
+2013/12/17 10:06:00 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php/project/admin
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/project/view/id/1
+---
+2013/12/17 10:06:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php/project/admin
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/project/view/id/1
+---
+2013/12/17 10:06:16 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to permorm this action.' in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php:26
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(263): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('index')
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('admin/default/i...')
+#3 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/trackstar/index.php/admin/default/index
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/project/view/id/1
+---
+2013/12/17 10:06:36 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php/project/admin
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/project/view/id/1
+---
+2013/12/17 10:07:09 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php:182
+Stack trace:
+#0 /Users/bonfa/Documents/workspace/yii/framework/web/auth/CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 /Users/bonfa/Documents/workspace/yii/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(291): CFilterChain->run()
+#6 /Users/bonfa/Documents/workspace/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(282): CController->run('admin')
+#8 /Users/bonfa/Documents/workspace/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('project/admin')
+#9 /Users/bonfa/Documents/workspace/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#10 /Users/bonfa/Documents/workspace/trackstar/index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/trackstar/index.php/project/admin
+HTTP_REFERER=http://localhost:8888/trackstar/index.php/project/view/id/1
+---
