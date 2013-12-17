@@ -10159,3 +10159,742 @@ in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectContr
 in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
 in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
 in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [application.controllers.SiteController] The actionLogin() method is being requested
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (84)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (88)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (88)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (147)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.caching.CFileCache] Serving "TrackStar.ProjectListing.SystemMessage" from cache
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] Project.count()
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] Comment.findAll()
+in /Users/bonfa/Documents/workspace/trackstar/protected/models/Comment.php (131)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_comment`
+in /Users/bonfa/Documents/workspace/trackstar/protected/models/Comment.php (131)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_comment`
+in /Users/bonfa/Documents/workspace/trackstar/protected/models/Comment.php (131)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_issue`
+in /Users/bonfa/Documents/workspace/trackstar/protected/models/Comment.php (131)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_issue`
+in /Users/bonfa/Documents/workspace/trackstar/protected/models/Comment.php (131)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `t`.`id` AS `t0_c0`, `t`.`content` AS `t0_c1`, `t`.`issue_id` AS `t0_c2`, `t`.`create_time` AS `t0_c3`, `t`.`create_user_id` AS `t0_c4`, `t`.`update_time` AS `t0_c5`, `t`.`update_user_id` AS `t0_c6`, `issue`.`id` AS `t1_c0`, `issue`.`name` AS `t1_c1`, `issue`.`description` AS `t1_c2`, `issue`.`project_id` AS `t1_c3`, `issue`.`type_id` AS `t1_c4`, `issue`.`status_id` AS `t1_c5`, `issue`.`owner_id` AS `t1_c6`, `issue`.`requester_id` AS `t1_c7`, `issue`.`create_time` AS `t1_c8`, `issue`.`create_user_id` AS `t1_c9`, `issue`.`update_time` AS `t1_c10`, `issue`.`update_user_id` AS `t1_c11` FROM `tbl_comment` `t`  LEFT OUTER JOIN `tbl_issue` `issue` ON (`t`.`issue_id`=`issue`.`id`)  ORDER BY t.create_time DESC LIMIT 5
+in /Users/bonfa/Documents/workspace/trackstar/protected/models/Comment.php (131)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_user`
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_user`
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_date` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_date` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_date` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_date` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.ar.CActiveRecord] lazy loading Comment.author
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT `author`.`id` AS `t1_c0`, `author`.`email` AS `t1_c1`, `author`.`username` AS `t1_c2`, `author`.`password` AS `t1_c3`, `author`.`last_login_date` AS `t1_c4`, `author`.`create_time` AS `t1_c5`, `author`.`create_user_id` AS `t1_c6`, `author`.`update_time` AS `t1_c7`, `author`.`update_user_id` AS `t1_c8` FROM `tbl_user` `author`  WHERE (`author`.`id`=:ypl0)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/views/recentComments.php (4)
+in /Users/bonfa/Documents/workspace/trackstar/protected/components/RecentComments.php (27)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (40)
+2013/12/17 11:07:23 [trace] [system.caching.CFileCache] Saving "Yii.COutputCache.TrackStar.ProjectListing.RecentComments..project/index....." to cache
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (42)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:23 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:23 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:23 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.web.filters.CFilterChain] Running filter ProjectController.filteraccessControl()
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (147)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: select id from tbl_sys_message order by update_time desc
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.caching.CFileCache] Serving "TrackStar.ProjectListing.SystemMessage" from cache
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/models/SysMessage.php (119)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (150)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.ar.CActiveRecord] Project.count()
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_project`
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_project`
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_project` `t`
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.ar.CActiveRecord] Project.findAll()
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_project` `t` LIMIT 10
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (31)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.caching.CFileCache] Serving "Yii.COutputCache.TrackStar.ProjectListing.RecentComments..project/index....." from cache
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/project/index.php (36)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:25 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/ProjectController.php (160)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (2)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (44)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:25 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/site/contact.php (14)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/site/contact.php (14)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/site/contact.php (34)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/site/contact.php (38)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/site/contact.php (68)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+2013/12/17 11:07:26 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+2013/12/17 11:07:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+2013/12/17 11:07:26 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+2013/12/17 11:07:26 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/themes/new/views/layouts/main.php (35)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/controllers/SiteController.php (76)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:26 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.base.CModule] Loading "admin" module
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (2)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/layouts/main.php (43)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column1.php (6)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+2013/12/17 11:07:27 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/DefaultController.php (7)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.base.CModule] Loading "admin" module
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.web.filters.CFilterChain] Running filter SysMessageController.filteraccessControl()
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.ar.CActiveRecord] SysMessage.count()
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_sys_message` `t`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.ar.CActiveRecord] SysMessage.findAll()
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` LIMIT 10
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:29 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/index.php (20)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (120)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.base.CModule] Loading "admin" module
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.web.filters.CFilterChain] Running filter SysMessageController.filteraccessControl()
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (57)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (57)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (71)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/_form.php (16)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/create.php (18)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (71)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/_form.php (34)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/create.php (18)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (71)
+2013/12/17 11:07:31 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/layouts/main.php (43)
+in /Users/bonfa/Documents/workspace/trackstar/protected/views/layouts/column2.php (22)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (71)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "log" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "request" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "urlManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "cache" application component
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.caching.CFileCache] Serving "Yii.CUrlManager.rules" from cache
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.base.CModule] Loading "admin" module
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "authManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "db" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbConnection] Opening DB connection
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "user" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "session" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/AdminModule.php (25)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.web.filters.CFilterChain] Running filter SysMessageController.filteraccessControl()
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthAssignment`
+WHERE userid=:userid
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT *
+FROM `AuthItem`
+WHERE name=:name
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.web.auth.CDbAuthManager] Checking permission "admin"
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW FULL COLUMNS FROM `tbl_sys_message`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (128)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SHOW CREATE TABLE `tbl_sys_message`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (128)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "themeManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "clientScript" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (15)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "widgetFactory" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/_search.php (12)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (40)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+2013/12/17 11:07:32 [trace] [system.db.ar.CActiveRecord] SysMessage.count()
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT COUNT(*) FROM `tbl_sys_message` `t`
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.ar.CActiveRecord] SysMessage.findAll()
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.db.CDbCommand] Querying SQL: SELECT * FROM `tbl_sys_message` `t` LIMIT 10
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "assetManager" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "coreMessages" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
+2013/12/17 11:07:32 [trace] [system.CModule] Loading "format" application component
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/views/sysMessage/admin.php (58)
+in /Users/bonfa/Documents/workspace/trackstar/protected/modules/admin/controllers/SysMessageController.php (135)
+in /Users/bonfa/Documents/workspace/trackstar/index.php (13)
